@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sutton is Incredible</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-phrases"></div>
+    <div class="container">
+        <h1 id="animatedTitle">Sutton is Incredible</h1>
+        <div class="translator-box">
+            <textarea id="inputText" placeholder="Enter English text here..."></textarea>
+            <button onclick="translateText()">Translate</button>
+            <div id="outputText"></div>
+        </div>
+        
+        <h2>Reverse Translation</h2>
+        <div class="translator-box">
+            <textarea id="inputTranslatedText" placeholder="Enter translated text here..."></textarea>
+            <button onclick="reverseTranslateText()">Reverse Translate</button>
+            <div id="outputEnglishText"></div>
+        </div>
+    </div>
+    <audio id="ribbitSound" src="ribbit.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
